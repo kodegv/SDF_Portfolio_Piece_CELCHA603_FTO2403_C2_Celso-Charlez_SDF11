@@ -61,7 +61,7 @@
               <div
                   class=" hidden md:flex items-center justify-between text-black gap-12">
                   <a class="scroll-smooth text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900"
-                      href="./brokenpage.html">Products
+                      href="./brokenpage.html">Products <!-- Added a "construction" -->
                   </a>
                   <a class="scroll-smooth text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900"
                       href="#features-target">Features
@@ -76,10 +76,10 @@
               <div class="gap-8 p-4 hidden items-center md:flex">
                   <button
                       class="text-sm font-normal text-dark-grey-800 hover:text-dark-grey-900">Log
-                      In</button>
+                      In</button> <!-- Buttons have no use at the moment -->
                   <button
                       class=" px-4 py-2 text-sm font-bold text-blue bg bg-green-500 rounded-xl hover:bg-pink-500">Sign
-                      Up</button>
+                      Up</button> <!-- Buttons have no use at the moment -->
               </div>
               <button class="p-4 md:hidden" id="mobile-menu-toggle">
                   <svg fill="none" viewBox="0 0 24 24" stroke="currentColor"
@@ -109,7 +109,7 @@
               class="flex flex-col justify-center col-span-1 text-center lg:text-start">
               <h1
                   class="mb-8 text-2xl font-extrabold leading-tight lg:text-4xl text-dark-grey-900">
-                  The Clever Place to <br> Keep Your Cache</h1>
+                  The Clever Place to <br> Keep Your Cache</h1> <!--Main title text-->
               <p
                   class="mb-6 text-base font-normal leading-7 lg:w-3/4 text-gray-900">
                   Cache bank is designed exclusively for software developers.
@@ -121,16 +121,16 @@
               <div class="flex flex-col items-center gap-4 lg:flex-row">
                   <button
                       class="flex items-center py-4 text-sm font-bold text-white px-7 focus: focus:ring-purple-blue-100 transition duration-300 rounded-xl bg-green-500 hover:bg-pink-500">Join
-                      Cache Now</button>
+                      Cache Now</button> <!--No actions-->
                   <button
                       class="flex items-center py-4 text-sm font-bold text-white px-7 focus: focus:ring-purple-blue-100 transition duration-300 rounded-xl bg-green-500 hover:bg-pink-500">Join
-                      Our Discord Server</button>
+                      Our Discord Server</button> <!--No actions-->
               </div>
           </div>
           <div class="items-center justify-end hidden col-span-1 md:flex ">
               <img class="w-4/5 rounded-md"
                   src="assets/component-2/hero-image.png"
-                  alt="header hero-image">
+                  alt="happy, at-home banker">
           </div>
       </section>
       <!-- Endorsements-->
@@ -139,7 +139,7 @@
               class="container flex flex-col items-center gap-8 mx-auto my-40">
               <p
                   class="text-center text-dark-grey-600 font-semibold mb-10 text-2xl">
-                  Endorsed by global companies like</p>
+                  Endorsed by global companies like</p> <!--Known global companies used as examples-->
               <div
                   class="flex flex-wrap items-center justify-center w-full gap-6 lg:gap-0 lg:flex-nowrap lg:justify-between">
                   <span><svg xmlns="http://www.w3.org/2000/svg" width="155"
@@ -201,10 +201,10 @@
           </div>
           <!--Cards Section-->
           <div
-              class="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-10 mt-20">
+              role="grid" class="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-10 mt-20">
               <!--Card 1-->
               <div
-                  class="flex flex-col items-center gap-6 px-6 py-5 rounded-3xl shadow-main hover:bg-green-500 transition duration-300">
+              role="gridcell" aria-posinset="1" aria-setsize="6" class="flex flex-col items-center gap-6 px-6 py-5 rounded-3xl shadow-main hover:bg-green-500 transition duration-300">
                   <div
                       class="flex items-center justify-center h-12 w-12 rounded-2xl bg-green-500">
                       <svg xmlns="http://www.w3.org/2000/svg" width="25"
@@ -227,7 +227,7 @@
               </div>
               <!--Card 2-->
               <div
-                  class="flex flex-col items-center gap-6 px-6 py-5 rounded-3xl shadow-main hover:bg-green-500 transition duration-300">
+                  role="gridcell" aria-posinset="2" aria-setsize="6" class="flex flex-col items-center gap-6 px-6 py-5 rounded-3xl shadow-main hover:bg-green-500 transition duration-300">
                   <div
                       class="flex items-center justify-center h-12 w-12 rounded-2xl bg-green-500">
                       <svg xmlns="http://www.w3.org/2000/svg" width="25"
@@ -250,7 +250,7 @@
               </div>
               <!--Card 3-->
               <div
-                  class="flex flex-col items-center gap-6 px-6 py-5 rounded-3xl shadow-main hover:bg-green-500 transition duration-300">
+                  role="gridcell" aria-posinset="3" aria-setsize="6" class="flex flex-col items-center gap-6 px-6 py-5 rounded-3xl shadow-main hover:bg-green-500 transition duration-300">
                   <div
                       class="flex items-center justify-center h-12 w-12 rounded-2xl bg-green-500">
                       <svg xmlns="http://www.w3.org/2000/svg" width="25"
@@ -273,7 +273,7 @@
               </div>
               <!--Card 4-->
               <div
-                  class="flex flex-col items-center gap-6 px-6 py-5 rounded-3xl shadow-main hover:bg-green-500 transition duration-300">
+                  role="gridcell" aria-posinset="4" aria-setsize="6" class="flex flex-col items-center gap-6 px-6 py-5 rounded-3xl shadow-main hover:bg-green-500 transition duration-300">
                   <div
                       class="flex items-center justify-center h-12 w-12 rounded-2xl bg-pink-500">
                       <svg xmlns="http://www.w3.org/2000/svg" width="25"
@@ -296,7 +296,7 @@
               </div>
               <!--Card 5-->
               <div
-                  class="flex flex-col items-center gap-6 px-6 py-5 rounded-3xl shadow-main hover:bg-green-500 transition duration-300">
+                  role="gridcell" aria-posinset="5" aria-setsize="6" class="flex flex-col items-center gap-6 px-6 py-5 rounded-3xl shadow-main hover:bg-green-500 transition duration-300">
                   <div
                       class="flex items-center justify-center h-12 w-12 rounded-2xl bg-pink-500">
                       <svg xmlns="http://www.w3.org/2000/svg" width="25"
@@ -319,7 +319,7 @@
               </div>
               <!--Card 6-->
               <div
-                  class="flex flex-col items-center gap-6 px-6 py-5 rounded-3xl shadow-main hover:bg-green-500 transition duration-300">
+                  role="gridcell" aria-posinset="6" aria-setsize="6" class="flex flex-col items-center gap-6 px-6 py-5 rounded-3xl shadow-main hover:bg-green-500 transition duration-300">
                   <div
                       class="flex items-center justify-center h-12 w-12 rounded-2xl bg-pink-500">
                       <svg xmlns="http://www.w3.org/2000/svg" width="25"
@@ -538,7 +538,7 @@
           <a
             class="text-lg font-bold text-green-500"
             href="mailto:hi@cachebank.com"
-          >
+          > <!--Actual mail link-->
             hi@cachebank.com
           </a>
         </div>
@@ -569,7 +569,7 @@
             href="tel: +215-486-5135"
           >
             +215-486-5135
-          </a>
+          </a> <!--Actual phone link-->
         </div>
 
         <div
@@ -592,7 +592,7 @@
           <h1 class="text-2xl font-extrabold text-dark-grey-900">Location</h1>
           <p class="text-base leading-7 text-dark-grey-600">
             Find us at our office
-          </p>
+          </p> 
           <a
             class="text-lg font-bold text-green-500"
             target="_blank"
@@ -600,7 +600,7 @@
             href="https://www.google.com/maps"
           >
             15 Tech Alley, Cape Town
-          </a>
+          </a> <!--Actual Google Maps link-->
         </div>
       </div>
     </div>
@@ -648,7 +648,7 @@
             <g mask="url(#mask0_3320_6483)" />
           </svg>
         </a>
-        <!-- Twitter/x -->
+        <!-- Twitter -->
         <a class="text-gray-700 hover:text-gray-900" href="#">
           <svg
             xmlns="http://www.w3.org/2000/svg"
